@@ -1,0 +1,255 @@
+/*--------------BODY--------------*/
+body{
+    margin:0;
+    padding:0;
+    background-image:url(images/background.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: lighten;
+}
+
+/*--------------HEADER--------------*/
+#header h1{
+ color:#F40000;
+    font-family: inherit;
+    font-size: 40px;
+    text-align: center;
+    font-size: italic;
+}
+
+#header img{
+    
+width:120px;
+    display:block;
+    margin:auto;
+
+}
+
+#header{
+    background-color: #BEFFA7;
+    margin-top:0px;
+    padding-top:1px;
+    margin-bottom:10px;
+    
+}
+
+#header a{
+    text-decoration:none;
+    
+}
+
+#header h1:hover{
+    color:black;
+    
+}
+
+
+/*--------------FOOTER--------------*/
+#footer{
+      position : fixed;
+      bottom   : 0; 
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: forestgreen;
+}
+
+#footer a{
+     float : left;
+     display : block;
+     width : 50%;
+     height : 35px;
+     font-weight : 700;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : none;
+}
+
+#footer a:hover{
+    color:black;
+}
+
+/*--------------INDEX PAGE--------------*/
+#home1{
+    text-decoration: none;
+    color:darkolivegreen;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    border:5px solid darkgreen; 
+  
+    
+    display:block;
+    margin:auto;
+    margin-bottom:10px;
+    height:100px;
+    width:80%;  
+}
+
+
+
+/*--------------MAINS.DESSERTS.DRINKS PAGE--------------*/
+#home2{
+    text-decoration: none;
+    color:brown;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    border:5px solid crimson; 
+   
+    
+    display:block;
+    margin:auto;
+    margin-bottom:10px;
+    width:70%;  
+}
+
+#home a:hover{
+    color:black;
+}
+
+/*--------------INDIVIDUAL PAGE--------------*/
+.page-pic img{
+    width:50%;
+    float:right;
+}
+
+.page-pic h1{
+    text-align:center;
+    font-family:monospace;
+    font-size:50px;
+    color:#B60000;
+}
+
+.page-info p{
+    font-family:cursive;
+    text-align:center;
+    font-size:14px;
+}
+
+.page-extra h2{  
+    text-align:left;
+    font-family:monospace;
+    font-size:27px;
+    padding-left:20px;
+    color:#259000;
+    
+}
+
+.page-input h2{
+     text-align:center;
+    font-family:monospace;
+    font-size:22px;
+    color:#AD2828;
+}
+
+.page-extra ul{
+    text-align:left;
+    font-size:15px;
+    font-family:cursive;
+    
+}
+
+
+input{
+      width: 40%;
+      height: 25px;
+      margin : 15px ;
+      border : 1px solid #929292;
+    background-color:#FFEBE8;
+}
+
+textarea{
+      width: 40%;
+      height :25px;
+      margin : 18px ;
+      border : 1px solid #929292;
+        background-color:#FFEBE8;
+}
+
+.button{
+   
+      text-decoration : none;
+      text-align  : center;
+      display:block;
+       width:100%;
+    margin:10px;
+      font-size   : 16px;
+      font-weight : 600;   
+    color:crimson;
+      
+}
+button{
+    width:50%;
+    background-color:#ADFFB7;
+    margin-bottom:0px;
+}
+/*--------------FEEDBACK.ABOUT.CONTACTUS PAGE--------------*/
+
+.feedback h1{
+    text-align:center;
+    font-family: serif;
+    color:#1C651C;
+    font-size: 60px;
+    font-style: oblique;
+   
+}
+
+.feedback h2{
+    text-align:center;
+    font-family: sans-serif;
+    color:#B02A20;
+        font-size: 20px;
+    font-style:initial;
+}
+
+.feedback h3{
+    text-align:center;
+    font-family:inherit;
+    color:#299028;
+        font-size: 20px;
+    font-style:inherit;
+
+}
+
+.feedback img{
+    width:50%;
+    display:block;
+    margin:auto;
+}
+
+/*--------------RESPONSIVE--------------*/
+
+@media only screen and (min-width: 500px) {
+    #home{
+        width:80%;
+        margin:auto;
+    }
+   
+}
+
+@media only screen and (min-width: 1000px) {
+    #home{
+        width:60%;
+        margin:auto;
+    }
+   
+}
+
+@media only screen and (min-width: 1500px) {
+    #home{
+        width:40%;
+        margin:auto;
+    }
+   
+}
+
+
+
+
+
+
+
